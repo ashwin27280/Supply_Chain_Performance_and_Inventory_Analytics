@@ -29,7 +29,7 @@ Supply chain data is easy to collect and hard to trust. Before any of these ques
 |---|---|
 | Extraction & deduplication | Excel |
 | Cleaning & preprocessing | Python (pandas) |
-| Database & analysis | MySQL (via SQLAlchemy) |
+| Database & analysis | SQL |
 | Business queries | SQL |
 | Dashboard & storytelling | Power BI + DAX |
 
