@@ -96,14 +96,17 @@ Late Delivery Risk % =
 
 ```text
 Supply-Chain-Analytics-Excel-Python-SQL-Power-BI/
-├── Dashboard/              Interactive Power BI file
-├── Excel_work/             Cleaned data and Excel analysis
-├── Python_work/            Jupyter notebooks (EDA & preprocessing)
-├── Report/                 Documentation & executive summary
-├── SQL_work/                SQL scripts (DB creation & queries)
-├── dashboard_pdf/          Exported PDF of the dashboard
-└── DataCoSupplyChainDataset.xlsx   Raw dataset
-```
+├── Dashboard/
+│   ├── Supplychaindashboard.pbix     # Interactive Power BI file
+│   ├── dashboard page 1.png          # Executive Dashboard (exported view)
+│   ├── dashboard page 2.png          # Sales Analysis (exported view)
+│   └── dashboard page 3.png          # Profitability & Delivery Analysis (exported view)
+├── Data/
+│   ├── Clean/                        # Cleaned datasets, ready for SQL/Power BI
+│   └── Raw/                          # Original, unprocessed dataset
+├── business_analysis.sql             # SQL scripts — business queries
+├── datapreprocessing.ipynb           # Python notebook — cleaning & preprocessing
+└── README.md
 
 ## 👤 Author
 
